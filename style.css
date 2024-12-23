@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212121;
+    color: #f1f1f1;
+    text-align: center;
+    justify-content: center;
+}
+
+#gray {
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 60px 10px;
+    cursor: pointer;
+}
+
+#white {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 60px 10px;
+    cursor: pointer;
+}
+
+#blue {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border: 1px solid black;
+    margin: 60px 10px;
+    cursor: pointer;
+}
+
+#yellow {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 60px 10px;
+    cursor: pointer;
+}
+
+.canvas {
+    margin: 150px auto;
+    padding: 10px;
+}
+
+.color_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
